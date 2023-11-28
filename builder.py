@@ -123,7 +123,7 @@ def copy_mod_files():
     shutil.copytree("mod/sound", "cache/assets/mods/sound", dirs_exist_ok=True)
     shutil.copytree("mod/ywp_cud", "cache/assets/mods/ywp_cud", dirs_exist_ok=True)
 
-    shutil.rmtree("cache/assets/YWP.app", ignore_errors=True)
+    shutil.rmtree("cache/assets/Application", ignore_errors=True)
 
     shutil.copytree("mod/Application", "cache/assets/", dirs_exist_ok=True)
 
