@@ -1,28 +1,41 @@
-# PTE
-Source code for the PuniTranslationEvolved mod, including source code for the builder. This does not include the AppGuard crack introduced in later versions of the game.
+# PuniTranslationEvolved (PTE) - Source Code for Translators
 
-# If you just want to download the latest PTE version, you can get it [here](https://rentry.co/pteDownload). This page is for translators.
+**Note:** This repository includes the source code for the PuniTranslationEvolved mod, as well as the source code for the builder. It does not contain the AppGuard crack introduced in later versions of the game.
 
-## How to contribute
-Fork this repository and make sure you have it on your computer.
+## If you just want to download PTE, go here:
 
-then, dump the latest Puni files.
+🔗 **[Download Latest PTE Version](https://rentry.co/pteDownload)**
 
-Find the file(s) you wanna translate, translate them and put them inside the `mod` folder in your fork.
+*This source code is specifically designed for translators and contributors. If you just want to download PTE, Please click the link above this text.
 
-You should of course replicate the folder structure from the dump. 
+## How to Contribute
 
-After that, you can grab that latest PTE prebuilt apk from [here](https://rentry.co/pteDownload) and then put it inside the "apk" folder in the forked repository. 
+1. **Fork the Repository:**
+   - Fork this repository and ensure you have a local copy on your computer.
 
-Now, If this is your first time building PTE, generate a keystore file and call it `release.keystore` and put it in the root of the repo.
+2. **Dump the Latest Puni Files:**
+   - Dump the latest Puni files.
 
-make sure you have Python3 installed and run `pip install requirements.pip`. 
+3. **Translate and Organize:**
+   - Identify the file(s) you want to translate, translate them, and place them inside the `mod` folder in your fork.
+   - Replicate the folder structure from the dump.
 
-Now, you can build the mod!
+4. **Include Prebuilt APK:**
+   - Download the latest PTE prebuilt APK from [here](https://rentry.co/pteDownload).
+   - Place the APK inside the "apk" folder in your forked repository.
 
-Make sure you put your new translations in the mod folder, then run `builder.py` with the command `python builder.py`. 
-then spam the enter key. 
+5. **Generate Keystore and Install Dependencies:**
+   - For first-time builders, generate a keystore file named `release.keystore` and place it in the root of the repository.
+   - Ensure Python3 is installed and run `pip install requirements.pip`.
 
-You can find your built APK in the `output_apk` folder. You can now test it.
+6. **Build the Mod:**
+   - Put your new translations in the mod folder.
+   - Run `builder.py` with the command `python builder.py`.
+   - Spam the enter key.
 
-When you are done with your translation, submit your fork as a pull request. We'll review it, and if it's a quality translation we'll add it! <3 
+7. **Access Built APK:**
+   - Find your built APK in the `output_apk` folder for testing.
+
+8. **Submit Your Translation:**
+   - Once your translation is complete, submit your fork as a pull request.
+   - We'll review it, and if it meets quality standards, we'll add it to the project! ❤️
