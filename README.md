@@ -6,7 +6,7 @@
 
 🔗 **[Download Latest PTE Version](https://rentry.co/pteDownload)**
 
-*This source code is specifically designed for translators and contributors. If you just want to download PTE, Please click the link above this text.
+*This source code is specifically designed for translators and contributors. If you just want to download PTE, Please click the link above this text.*
 
 ## How to Contribute
 
